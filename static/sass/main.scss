@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+
+	margin: 0;
+	padding: 0;
+
+	min-height: 100vh;
+
+	background: linear-gradient(-8deg, #FF4E50, #F9D423);
+
+	text-shadow: 0 0.05em 0 rgba(0,0,0,0.1);
+
+	font-size: 8vw;
+	font-family: sans-serif;
+}
+
+#react-root {
+	text-align: center;
+}
+
+.tech {
+	padding: 0.4em 0.6em 0.4em;
+	border-radius: 0.2em;
+	box-shadow: 0 0.05em 0 rgba(0,0,0,0.1);
+}
+
+.electron {
+	color: #45828E;
+	background-color: #A5ECFA;
+}
+
+.react {
+	color: #61dafb;
+	background-color: #222;
+}
+
+.sass {
+	color: #c6538c;
+	background-color: #ffffff;
+}
