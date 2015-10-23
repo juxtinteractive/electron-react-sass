@@ -28,8 +28,11 @@ app.on('ready', function() {
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
 
-  // Open the DevTools.
-  mainWindow.openDevTools();
+  // Only open dev tools in dev environment
+  if(process.env.ENVIRONMENT === 'DEV') {
+    // Open the DevTools.
+    mainWindow.openDevTools();
+  }
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
