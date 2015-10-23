@@ -1,0 +1,9 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "author": "Marcus Stenbeck <marcus.stenbeck@gmail.com>",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1"
+  }
+}
