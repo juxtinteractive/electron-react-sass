@@ -4,7 +4,10 @@
   "author": "Marcus Stenbeck <marcus.stenbeck@gmail.com>",
   "main": "main.js",
   "devDependencies": {
-    "electron-prebuilt": "^0.34.1"
+    "babel-core": "^5.8.25",
+    "electron-prebuilt": "^0.34.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "scripts": {
     "start": "./node_modules/.bin/electron ."
