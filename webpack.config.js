@@ -1,12 +1,13 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
-  context: __dirname + '/src',
+  context: path.join(__dirname, '/src'),
   entry: './entry.js',
 
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/build',
+    path: path.join(__dirname, '/build'),
     publicPath: 'http://localhost:8080/build/'
   },
 
